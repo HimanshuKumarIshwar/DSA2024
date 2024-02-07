@@ -59,6 +59,75 @@ public class LearnCondition {
 
 
 
+//        int d = 20;
+//        int g = 200;
+//        int max = 0;
+//
+//        max  = (d>g)? d:g;
+//        System.out.println(max);
+
+
+        // maxOfTheThreeNumbers
+
+        int firstNumber = 100;
+        int secondNumber = 30;
+        int thirdNumber = 5000;
+        int max = 0;
+
+
+        max = (firstNumber > secondNumber) ? (firstNumber > thirdNumber)? firstNumber: thirdNumber : (secondNumber > thirdNumber)? secondNumber:thirdNumber;
+
+        System.out.println(max);
+
+// switch statement
+
+        int temp = 34;
+
+//        switch (temp) {
+//            case 1 -> System.out.println("case 1");
+//            case 2 -> System.out.println("case 2");
+//            case 3, 4 -> System.out.println("case 3 and case 4");
+//            default -> System.out.println("Nothing to match");
+//        }
+
+
+
+        // logical operator
+
+        int  time= 12;
+
+//      if(time >= 10){
+//          if (time <=20){
+//              System.out.println("office is open");
+//          }else {
+//              System.out.println("office is close");
+//          }
+//      }else {
+//          System.out.println("office is close");
+//      }
+
+
+        if(time >=10 && time <=20){
+            System.out.println("office is open");
+        } else {
+            System.out.println("office is close");
+        }
+
+
+        if(time ==12 || time==18){
+            System.out.println("Time for snacks");
+        }
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
