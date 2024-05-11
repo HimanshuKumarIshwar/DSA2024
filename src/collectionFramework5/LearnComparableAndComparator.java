@@ -1,7 +1,7 @@
 package collectionFramework5;
 import java.net.CookieHandler;
 import java.util.*;
-public class LearnComparableAndComparator {
+public class  LearnComparableAndComparator {
 
 
     public static void main(String[] args) {
